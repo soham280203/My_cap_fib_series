@@ -1,1 +1,1 @@
-# My_cap_fib_series
+AI My Captain Course week 1 project2
