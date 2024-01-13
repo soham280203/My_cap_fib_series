@@ -1,0 +1,16 @@
+E = {0, 2, 4, 6, 8}
+N = {1, 2, 3, 5, 4}
+
+union_result = E.copy()
+union_result.update(N)
+print(union_result)
+
+# Intersection
+intersection_result = {x for x in E if x in N}
+print(intersection_result)
+# Difference
+difference_result = {x for x in E if x not in N}
+print(difference_result)
+# Symmetric Difference
+symmetric_difference_result = {x for x in E.union(N) if x not in E.intersection(N)}
+print(symmetric_difference_result)
