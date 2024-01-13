@@ -1,1 +1,1 @@
-AI My Captain Course week 1 project2
+AI My Captain Course 
